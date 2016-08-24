@@ -1,6 +1,8 @@
 # docker-PostgreSQL-Hunspell
 Docker File for creating a en-us Hunspell enabled PostgreSQL instance for FTS
 
+[Pull from Docker Hub](https://hub.docker.com/r/tecktron/postgresql-hunspell-en-us/)
+
 This demonstrates how easy it is to add the Hunspell dictionaries into a PosgreSQL instance for use with full text searching (FTS).
 
 This image uses the official PostgreSQL image and therefore works in the exact same way. For more information on that please see the [offical Docker page](https://hub.docker.com/_/postgres/) or the [official Git repo](https://github.com/docker-library/postgres).
@@ -41,6 +43,6 @@ WITH unaccent, english_simple, english_ispell, english_stem;
 ```
 
 
-For more information on the power and use PostgreSQL FTS, I suggest you read this simply wonderful 3 part tutorial: [PostgreSQL: A full text search engine](http://shisaa.jp/postset/postgresql-full-text-search-part-1.html)
+For more information on the power and use of PostgreSQL FTS, I suggest you read this simply wonderful 3 part tutorial: [PostgreSQL: A full text search engine](http://shisaa.jp/postset/postgresql-full-text-search-part-1.html)
 
 
