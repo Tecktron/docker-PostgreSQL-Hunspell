@@ -1,4 +1,4 @@
-FROM postgres:9.5
+FROM postgres:9.6
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update \
 	&& apt-get install -y hunspell-en-us \
